@@ -1,0 +1,27 @@
+[2026-07-03T10:36:28.225+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: conecctions.leer_variable manual__2026-07-03T10:36:24.898933+00:00 [queued]>
+[2026-07-03T10:36:28.252+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: conecctions.leer_variable manual__2026-07-03T10:36:24.898933+00:00 [queued]>
+[2026-07-03T10:36:28.252+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2026-07-03T10:36:28.289+0000] {taskinstance.py:1382} INFO - Executing <Task(FileSensor): leer_variable> on 2026-07-03 10:36:24.898933+00:00
+[2026-07-03T10:36:28.304+0000] {standard_task_runner.py:57} INFO - Started process 3860 to run task
+[2026-07-03T10:36:28.314+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'conecctions', 'leer_variable', 'manual__2026-07-03T10:36:24.898933+00:00', '--job-id', '1970', '--raw', '--subdir', 'DAGS_FOLDER/varconnections.py', '--cfg-path', '/tmp/tmpu54lexl1']
+[2026-07-03T10:36:28.324+0000] {standard_task_runner.py:85} INFO - Job 1970: Subtask leer_variable
+[2026-07-03T10:36:28.616+0000] {task_command.py:416} INFO - Running <TaskInstance: conecctions.leer_variable manual__2026-07-03T10:36:24.898933+00:00 [running]> on host 47a79d719c30
+[2026-07-03T10:36:29.066+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='conecctions' AIRFLOW_CTX_TASK_ID='leer_variable' AIRFLOW_CTX_EXECUTION_DATE='2026-07-03T10:36:24.898933+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-07-03T10:36:24.898933+00:00'
+[2026-07-03T10:36:29.123+0000] {base.py:73} INFO - Using connection ID 'connection_var' for task execution.
+[2026-07-03T10:36:29.124+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/sensors/base.py", line 257, in execute
+    raise e
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/sensors/base.py", line 239, in execute
+    poke_return = self.poke(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/sensors/filesystem.py", line 63, in poke
+    full_path = os.path.join(basepath, self.filepath)
+  File "/usr/local/lib/python3.8/posixpath.py", line 90, in join
+    genericpath._check_arg_types('join', a, *p)
+  File "/usr/local/lib/python3.8/genericpath.py", line 152, in _check_arg_types
+    raise TypeError(f'{funcname}() argument must be str, bytes, or '
+TypeError: join() argument must be str, bytes, or os.PathLike object, not 'function'
+[2026-07-03T10:36:29.158+0000] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=conecctions, task_id=leer_variable, execution_date=20260703T103624, start_date=20260703T103628, end_date=20260703T103629
+[2026-07-03T10:36:29.198+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 1970 for task leer_variable (join() argument must be str, bytes, or os.PathLike object, not 'function'; 3860)
+[2026-07-03T10:36:29.243+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2026-07-03T10:36:29.289+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
