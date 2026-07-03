@@ -1,0 +1,14 @@
+[2026-07-02T08:33:28.467+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: prueba1.tarea3 manual__2026-07-02T08:33:25.404690+00:00 [queued]>
+[2026-07-02T08:33:28.475+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: prueba1.tarea3 manual__2026-07-02T08:33:25.404690+00:00 [queued]>
+[2026-07-02T08:33:28.476+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2026-07-02T08:33:28.487+0000] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): tarea3> on 2026-07-02 08:33:25.404690+00:00
+[2026-07-02T08:33:28.491+0000] {standard_task_runner.py:57} INFO - Started process 729 to run task
+[2026-07-02T08:33:28.494+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'prueba1', 'tarea3', 'manual__2026-07-02T08:33:25.404690+00:00', '--job-id', '1929', '--raw', '--subdir', 'DAGS_FOLDER/dag1.py', '--cfg-path', '/tmp/tmpht4tk_j_']
+[2026-07-02T08:33:28.496+0000] {standard_task_runner.py:85} INFO - Job 1929: Subtask tarea3
+[2026-07-02T08:33:28.538+0000] {task_command.py:416} INFO - Running <TaskInstance: prueba1.tarea3 manual__2026-07-02T08:33:25.404690+00:00 [running]> on host 95b0d24bb2fc
+[2026-07-02T08:33:28.617+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='prueba1' AIRFLOW_CTX_TASK_ID='tarea3' AIRFLOW_CTX_EXECUTION_DATE='2026-07-02T08:33:25.404690+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-07-02T08:33:25.404690+00:00'
+[2026-07-02T08:33:28.618+0000] {logging_mixin.py:154} INFO - Ejecutando tarea 3
+[2026-07-02T08:33:28.619+0000] {python.py:194} INFO - Done. Returned value was: None
+[2026-07-02T08:33:28.628+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=prueba1, task_id=tarea3, execution_date=20260702T083325, start_date=20260702T083328, end_date=20260702T083328
+[2026-07-02T08:33:28.667+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2026-07-02T08:33:28.683+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

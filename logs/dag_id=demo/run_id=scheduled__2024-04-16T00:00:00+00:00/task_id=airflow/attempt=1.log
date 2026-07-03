@@ -1,0 +1,14 @@
+[2026-07-02T08:12:23.346+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: demo.airflow scheduled__2024-04-16T00:00:00+00:00 [queued]>
+[2026-07-02T08:12:23.374+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: demo.airflow scheduled__2024-04-16T00:00:00+00:00 [queued]>
+[2026-07-02T08:12:23.375+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2026-07-02T08:12:23.463+0000] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): airflow> on 2024-04-16 00:00:00+00:00
+[2026-07-02T08:12:23.474+0000] {standard_task_runner.py:57} INFO - Started process 4127 to run task
+[2026-07-02T08:12:23.490+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'demo', '***', 'scheduled__2024-04-16T00:00:00+00:00', '--job-id', '1683', '--raw', '--subdir', 'DAGS_FOLDER/prueba.py', '--cfg-path', '/tmp/tmpoxph3772']
+[2026-07-02T08:12:23.500+0000] {standard_task_runner.py:85} INFO - Job 1683: Subtask ***
+[2026-07-02T08:12:23.784+0000] {task_command.py:416} INFO - Running <TaskInstance: demo.airflow scheduled__2024-04-16T00:00:00+00:00 [running]> on host 472177d621bf
+[2026-07-02T08:12:24.234+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='demo' AIRFLOW_CTX_TASK_ID='***' AIRFLOW_CTX_EXECUTION_DATE='2024-04-16T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-04-16T00:00:00+00:00'
+[2026-07-02T08:12:24.237+0000] {logging_mixin.py:154} INFO - ***
+[2026-07-02T08:12:24.238+0000] {python.py:194} INFO - Done. Returned value was: None
+[2026-07-02T08:12:24.268+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=demo, task_id=***, execution_date=20240416T000000, start_date=20260702T081223, end_date=20260702T081224
+[2026-07-02T08:12:24.344+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2026-07-02T08:12:24.387+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

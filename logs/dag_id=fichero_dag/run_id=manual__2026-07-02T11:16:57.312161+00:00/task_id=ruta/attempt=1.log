@@ -1,0 +1,14 @@
+[2026-07-02T11:16:58.144+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fichero_dag.ruta manual__2026-07-02T11:16:57.312161+00:00 [queued]>
+[2026-07-02T11:16:58.161+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fichero_dag.ruta manual__2026-07-02T11:16:57.312161+00:00 [queued]>
+[2026-07-02T11:16:58.161+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2026-07-02T11:16:58.182+0000] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): ruta> on 2026-07-02 11:16:57.312161+00:00
+[2026-07-02T11:16:58.191+0000] {standard_task_runner.py:57} INFO - Started process 438 to run task
+[2026-07-02T11:16:58.197+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'fichero_dag', 'ruta', 'manual__2026-07-02T11:16:57.312161+00:00', '--job-id', '1945', '--raw', '--subdir', 'DAGS_FOLDER/fichero.py', '--cfg-path', '/tmp/tmp_3lh6dqd']
+[2026-07-02T11:16:58.201+0000] {standard_task_runner.py:85} INFO - Job 1945: Subtask ruta
+[2026-07-02T11:16:58.279+0000] {task_command.py:416} INFO - Running <TaskInstance: fichero_dag.ruta manual__2026-07-02T11:16:57.312161+00:00 [running]> on host 691ebb7d1e76
+[2026-07-02T11:16:58.402+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='fichero_dag' AIRFLOW_CTX_TASK_ID='ruta' AIRFLOW_CTX_EXECUTION_DATE='2026-07-02T11:16:57.312161+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-07-02T11:16:57.312161+00:00'
+[2026-07-02T11:16:58.403+0000] {logging_mixin.py:154} INFO - La ruta final es /home/ramonreina/***/dags/fichero.py
+[2026-07-02T11:16:58.403+0000] {python.py:194} INFO - Done. Returned value was: /home/ramonreina/***/dags/fichero.py
+[2026-07-02T11:16:58.443+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=fichero_dag, task_id=ruta, execution_date=20260702T111657, start_date=20260702T111658, end_date=20260702T111658
+[2026-07-02T11:16:58.490+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2026-07-02T11:16:58.513+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
