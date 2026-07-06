@@ -1,0 +1,32 @@
+[2026-07-03T12:19:30.634+0000] {processor.py:157} INFO - Started process (PID=3919) to work on /opt/airflow/dags/incidencias.py
+[2026-07-03T12:19:30.635+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/incidencias.py for tasks to queue
+[2026-07-03T12:19:30.636+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:19:30.635+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/incidencias.py
+[2026-07-03T12:19:30.672+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dag_definitivo']) retrieved from /opt/airflow/dags/incidencias.py
+[2026-07-03T12:19:30.876+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:19:30.876+0000] {manager.py:499} INFO - Created Permission View: %s
+[2026-07-03T12:19:30.887+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:19:30.886+0000] {manager.py:499} INFO - Created Permission View: %s
+[2026-07-03T12:19:30.895+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:19:30.895+0000] {manager.py:499} INFO - Created Permission View: %s
+[2026-07-03T12:19:30.895+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:19:30.895+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:19:30.905+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:19:30.905+0000] {dag.py:2963} INFO - Creating ORM DAG for dag_definitivo
+[2026-07-03T12:19:30.913+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:19:30.913+0000] {dag.py:3722} INFO - Setting next_dagrun for dag_definitivo to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:19:30.930+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/incidencias.py took 0.299 seconds
+[2026-07-03T12:20:01.075+0000] {processor.py:157} INFO - Started process (PID=3961) to work on /opt/airflow/dags/incidencias.py
+[2026-07-03T12:20:01.076+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/incidencias.py for tasks to queue
+[2026-07-03T12:20:01.077+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:20:01.077+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/incidencias.py
+[2026-07-03T12:20:01.100+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dag_definitivo']) retrieved from /opt/airflow/dags/incidencias.py
+[2026-07-03T12:20:01.117+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:20:01.116+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:20:01.133+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:20:01.133+0000] {dag.py:3722} INFO - Setting next_dagrun for dag_definitivo to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:20:01.149+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/incidencias.py took 0.076 seconds
+[2026-07-03T12:20:31.461+0000] {processor.py:157} INFO - Started process (PID=4003) to work on /opt/airflow/dags/incidencias.py
+[2026-07-03T12:20:31.472+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/incidencias.py for tasks to queue
+[2026-07-03T12:20:31.473+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:20:31.473+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/incidencias.py
+[2026-07-03T12:20:31.497+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dag_definitivo']) retrieved from /opt/airflow/dags/incidencias.py
+[2026-07-03T12:20:31.512+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:20:31.512+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:20:31.529+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:20:31.529+0000] {dag.py:3722} INFO - Setting next_dagrun for dag_definitivo to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:20:31.546+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/incidencias.py took 0.089 seconds
+[2026-07-03T12:21:02.103+0000] {processor.py:157} INFO - Started process (PID=4045) to work on /opt/airflow/dags/incidencias.py
+[2026-07-03T12:21:02.104+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/incidencias.py for tasks to queue
+[2026-07-03T12:21:02.105+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:21:02.105+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/incidencias.py
+[2026-07-03T12:21:02.129+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dag_definitivo']) retrieved from /opt/airflow/dags/incidencias.py
+[2026-07-03T12:21:02.144+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:21:02.144+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:21:02.161+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:21:02.161+0000] {dag.py:3722} INFO - Setting next_dagrun for dag_definitivo to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:21:02.178+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/incidencias.py took 0.078 seconds

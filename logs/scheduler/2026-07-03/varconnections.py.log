@@ -1390,3 +1390,948 @@ AttributeError: '_TaskDecorator' object has no attribute 'update_relative'
 [2026-07-03T10:57:19.517+0000] {logging_mixin.py:154} INFO - [2026-07-03T10:57:19.517+0000] {dag.py:2941} INFO - Sync 1 DAGs
 [2026-07-03T10:57:19.535+0000] {logging_mixin.py:154} INFO - [2026-07-03T10:57:19.535+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
 [2026-07-03T10:57:19.556+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.084 seconds
+[2026-07-03T10:57:49.826+0000] {processor.py:157} INFO - Started process (PID=5223) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T10:57:49.838+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T10:57:49.839+0000] {logging_mixin.py:154} INFO - [2026-07-03T10:57:49.839+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T10:57:49.872+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T10:57:49.892+0000] {logging_mixin.py:154} INFO - [2026-07-03T10:57:49.892+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T10:57:49.915+0000] {logging_mixin.py:154} INFO - [2026-07-03T10:57:49.915+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T10:57:49.939+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.117 seconds
+[2026-07-03T10:58:20.206+0000] {processor.py:157} INFO - Started process (PID=5248) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T10:58:20.207+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T10:58:20.208+0000] {logging_mixin.py:154} INFO - [2026-07-03T10:58:20.207+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T10:58:20.237+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T10:58:20.255+0000] {logging_mixin.py:154} INFO - [2026-07-03T10:58:20.255+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T10:58:20.277+0000] {logging_mixin.py:154} INFO - [2026-07-03T10:58:20.277+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T10:58:20.311+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.109 seconds
+[2026-07-03T10:58:50.639+0000] {processor.py:157} INFO - Started process (PID=5280) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T10:58:50.641+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T10:58:50.642+0000] {logging_mixin.py:154} INFO - [2026-07-03T10:58:50.642+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T10:58:50.667+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T10:58:50.684+0000] {logging_mixin.py:154} INFO - [2026-07-03T10:58:50.684+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T10:58:50.705+0000] {logging_mixin.py:154} INFO - [2026-07-03T10:58:50.704+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T10:58:50.735+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.099 seconds
+[2026-07-03T10:59:21.039+0000] {processor.py:157} INFO - Started process (PID=5312) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T10:59:21.039+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T10:59:21.040+0000] {logging_mixin.py:154} INFO - [2026-07-03T10:59:21.040+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T10:59:21.066+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T10:59:21.083+0000] {logging_mixin.py:154} INFO - [2026-07-03T10:59:21.083+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T10:59:21.101+0000] {logging_mixin.py:154} INFO - [2026-07-03T10:59:21.101+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T10:59:21.121+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.086 seconds
+[2026-07-03T10:59:51.444+0000] {processor.py:157} INFO - Started process (PID=5344) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T10:59:51.455+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T10:59:51.455+0000] {logging_mixin.py:154} INFO - [2026-07-03T10:59:51.455+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T10:59:51.479+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T10:59:51.494+0000] {logging_mixin.py:154} INFO - [2026-07-03T10:59:51.494+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T10:59:51.513+0000] {logging_mixin.py:154} INFO - [2026-07-03T10:59:51.513+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T10:59:51.532+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.091 seconds
+[2026-07-03T11:00:21.794+0000] {processor.py:157} INFO - Started process (PID=5376) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:00:21.794+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:00:21.795+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:00:21.795+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:00:21.822+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:00:21.838+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:00:21.838+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:00:21.862+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:00:21.862+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:00:21.882+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.092 seconds
+[2026-07-03T11:00:52.185+0000] {processor.py:157} INFO - Started process (PID=5408) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:00:52.190+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:00:52.191+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:00:52.191+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:00:52.214+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:00:52.229+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:00:52.229+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:00:52.247+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:00:52.247+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:00:52.265+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.083 seconds
+[2026-07-03T11:01:22.601+0000] {processor.py:157} INFO - Started process (PID=5440) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:01:22.602+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:01:22.602+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:01:22.602+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:01:22.626+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:01:22.644+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:01:22.644+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:01:22.668+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:01:22.667+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:01:22.690+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.092 seconds
+[2026-07-03T11:01:35.817+0000] {processor.py:157} INFO - Started process (PID=5467) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:01:35.828+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:01:35.829+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:01:35.829+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:01:35.855+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:01:35.876+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:01:35.876+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:01:35.896+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:01:35.896+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:01:35.926+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.114 seconds
+[2026-07-03T11:02:06.275+0000] {processor.py:157} INFO - Started process (PID=5499) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:02:06.276+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:02:06.277+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:02:06.277+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:02:06.314+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:02:06.344+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:02:06.344+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:02:06.382+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:02:06.382+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:02:06.413+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.144 seconds
+[2026-07-03T11:02:36.598+0000] {processor.py:157} INFO - Started process (PID=5524) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:02:36.610+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:02:36.610+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:02:36.610+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:02:36.635+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:02:36.656+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:02:36.655+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:02:36.678+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:02:36.678+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:02:36.707+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.113 seconds
+[2026-07-03T11:03:07.091+0000] {processor.py:157} INFO - Started process (PID=5556) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:03:07.092+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:03:07.093+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:03:07.093+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:03:07.124+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:03:07.148+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:03:07.148+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:03:07.177+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:03:07.176+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:03:07.204+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.118 seconds
+[2026-07-03T11:03:37.678+0000] {processor.py:157} INFO - Started process (PID=5588) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:03:37.689+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:03:37.690+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:03:37.690+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:03:37.715+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:03:37.738+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:03:37.737+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:03:37.759+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:03:37.759+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:03:37.788+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.112 seconds
+[2026-07-03T11:04:08.127+0000] {processor.py:157} INFO - Started process (PID=5620) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:04:08.128+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:04:08.129+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:04:08.128+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:04:08.164+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:04:08.182+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:04:08.181+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:04:08.206+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:04:08.206+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:04:08.235+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.113 seconds
+[2026-07-03T11:04:38.594+0000] {processor.py:157} INFO - Started process (PID=5652) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:04:38.595+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:04:38.597+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:04:38.596+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:04:38.640+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:04:38.663+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:04:38.663+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:04:38.688+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:04:38.688+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:04:38.717+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.130 seconds
+[2026-07-03T11:05:09.056+0000] {processor.py:157} INFO - Started process (PID=5684) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:05:09.057+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:05:09.057+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:05:09.057+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:05:09.082+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:05:09.100+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:05:09.100+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:05:09.120+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:05:09.119+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:05:09.138+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.085 seconds
+[2026-07-03T11:05:39.471+0000] {processor.py:157} INFO - Started process (PID=5716) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:05:39.482+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:05:39.483+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:05:39.483+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:05:39.512+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:05:39.530+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:05:39.530+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:05:39.551+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:05:39.551+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:05:39.582+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.115 seconds
+[2026-07-03T11:06:09.877+0000] {processor.py:157} INFO - Started process (PID=5748) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:06:09.878+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:06:09.879+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:06:09.878+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:06:09.902+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:06:09.918+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:06:09.918+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:06:09.940+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:06:09.940+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:06:09.965+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.092 seconds
+[2026-07-03T11:06:40.289+0000] {processor.py:157} INFO - Started process (PID=5780) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:06:40.291+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:06:40.291+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:06:40.291+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:06:40.313+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:06:40.330+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:06:40.330+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:06:40.353+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:06:40.352+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:06:40.385+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.100 seconds
+[2026-07-03T11:07:10.805+0000] {processor.py:157} INFO - Started process (PID=5812) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:07:10.807+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:07:10.808+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:07:10.808+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:07:10.853+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:07:10.890+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:07:10.890+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:07:10.949+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:07:10.949+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:07:11.001+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.204 seconds
+[2026-07-03T11:07:41.204+0000] {processor.py:157} INFO - Started process (PID=5844) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:07:41.215+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:07:41.216+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:07:41.216+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:07:41.240+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:07:41.256+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:07:41.255+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:07:41.277+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:07:41.277+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:07:41.305+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.104 seconds
+[2026-07-03T11:08:11.623+0000] {processor.py:157} INFO - Started process (PID=5876) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:08:11.624+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:08:11.626+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:08:11.625+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:08:11.652+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:08:11.669+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:08:11.669+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:08:11.687+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:08:11.687+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:08:11.713+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.094 seconds
+[2026-07-03T11:08:42.170+0000] {processor.py:157} INFO - Started process (PID=5908) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:08:42.181+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:08:42.182+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:08:42.182+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:08:42.206+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:08:42.220+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:08:42.220+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:08:42.241+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:08:42.240+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:08:42.260+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.093 seconds
+[2026-07-03T11:09:12.582+0000] {processor.py:157} INFO - Started process (PID=5940) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:09:12.583+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:09:12.584+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:09:12.583+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:09:12.610+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:09:12.626+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:09:12.625+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:09:12.645+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:09:12.644+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:09:12.665+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.087 seconds
+[2026-07-03T11:10:07.949+0000] {processor.py:157} INFO - Started process (PID=170) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:10:07.959+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:10:07.966+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:10:07.964+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:10:08.209+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:10:08.300+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:10:08.299+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:10:08.416+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:10:08.416+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:10:08.513+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.606 seconds
+[2026-07-03T11:10:39.326+0000] {processor.py:157} INFO - Started process (PID=209) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:10:39.327+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:10:39.329+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:10:39.328+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:10:39.467+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:10:39.565+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:10:39.565+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:10:39.637+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:10:39.637+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:10:39.669+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.346 seconds
+[2026-07-03T11:11:10.328+0000] {processor.py:157} INFO - Started process (PID=246) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:11:10.339+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:11:10.340+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:11:10.340+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:11:10.389+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:11:10.412+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:11:10.412+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:11:10.445+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:11:10.445+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:11:10.476+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.153 seconds
+[2026-07-03T11:11:40.585+0000] {processor.py:157} INFO - Started process (PID=287) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:11:40.587+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:11:40.588+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:11:40.588+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:11:40.619+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:11:40.643+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:11:40.642+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:11:40.677+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:11:40.676+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:11:40.701+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.122 seconds
+[2026-07-03T11:12:11.272+0000] {processor.py:157} INFO - Started process (PID=333) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:12:11.283+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:12:11.284+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:12:11.284+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:12:11.307+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:12:11.323+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:12:11.323+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:12:11.342+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:12:11.342+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:12:11.363+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.094 seconds
+[2026-07-03T11:12:41.732+0000] {processor.py:157} INFO - Started process (PID=370) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:12:41.743+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:12:41.744+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:12:41.744+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:12:41.770+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:12:41.787+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:12:41.787+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:12:41.808+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:12:41.808+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:12:41.832+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.105 seconds
+[2026-07-03T11:13:12.211+0000] {processor.py:157} INFO - Started process (PID=407) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:13:12.222+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:13:12.222+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:13:12.222+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:13:12.246+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:13:12.261+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:13:12.261+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:13:12.282+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:13:12.282+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:13:12.302+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.095 seconds
+[2026-07-03T11:13:42.719+0000] {processor.py:157} INFO - Started process (PID=444) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:13:42.730+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:13:42.731+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:13:42.730+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:13:42.755+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:13:42.773+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:13:42.773+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:13:42.795+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:13:42.795+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:13:42.816+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.101 seconds
+[2026-07-03T11:14:13.170+0000] {processor.py:157} INFO - Started process (PID=481) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:14:13.181+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:14:13.181+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:14:13.181+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:14:13.210+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:14:13.226+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:14:13.226+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:14:13.246+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:14:13.246+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:14:13.269+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.103 seconds
+[2026-07-03T11:14:43.641+0000] {processor.py:157} INFO - Started process (PID=518) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:14:43.642+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:14:43.643+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:14:43.643+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:14:43.668+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:14:43.685+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:14:43.684+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:14:43.706+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:14:43.706+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:14:43.727+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.090 seconds
+[2026-07-03T11:15:14.141+0000] {processor.py:157} INFO - Started process (PID=555) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:15:14.151+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:15:14.152+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:15:14.152+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:15:14.177+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:15:14.192+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:15:14.192+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:15:14.215+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:15:14.214+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:15:14.241+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.104 seconds
+[2026-07-03T11:15:44.622+0000] {processor.py:157} INFO - Started process (PID=592) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:15:44.633+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:15:44.634+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:15:44.634+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:15:44.664+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:15:44.683+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:15:44.683+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:15:44.707+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:15:44.707+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:15:44.732+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.114 seconds
+[2026-07-03T11:16:15.152+0000] {processor.py:157} INFO - Started process (PID=629) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:16:15.153+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:16:15.154+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:16:15.154+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:16:15.180+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:16:15.196+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:16:15.196+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:16:15.219+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:16:15.218+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:16:15.252+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.104 seconds
+[2026-07-03T11:16:45.653+0000] {processor.py:157} INFO - Started process (PID=666) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:16:45.664+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:16:45.665+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:16:45.665+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:16:45.690+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:16:45.706+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:16:45.706+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:16:45.725+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:16:45.725+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:16:45.746+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.095 seconds
+[2026-07-03T11:17:16.219+0000] {processor.py:157} INFO - Started process (PID=703) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:17:16.221+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:17:16.223+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:17:16.222+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:17:16.315+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:17:16.380+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:17:16.379+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:17:16.432+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:17:16.431+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:17:16.465+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.257 seconds
+[2026-07-03T11:17:46.908+0000] {processor.py:157} INFO - Started process (PID=733) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:17:46.910+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:17:46.912+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:17:46.911+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:17:46.955+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:17:46.995+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:17:46.995+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:17:47.045+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:17:47.045+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:17:47.091+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.189 seconds
+[2026-07-03T11:18:17.776+0000] {processor.py:157} INFO - Started process (PID=770) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:18:17.782+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:18:17.785+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:18:17.784+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:18:17.894+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:18:17.937+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:18:17.937+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:18:17.984+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:18:17.984+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:18:18.018+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.277 seconds
+[2026-07-03T11:18:48.904+0000] {processor.py:157} INFO - Started process (PID=807) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:18:48.906+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:18:48.907+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:18:48.907+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:18:48.937+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:18:48.959+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:18:48.959+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:18:48.981+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:18:48.980+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:18:49.002+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.102 seconds
+[2026-07-03T11:19:19.423+0000] {processor.py:157} INFO - Started process (PID=844) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:19:19.425+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:19:19.427+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:19:19.426+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:19:19.480+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:19:19.509+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:19:19.509+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:19:19.534+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:19:19.534+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:19:19.554+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.136 seconds
+[2026-07-03T11:19:50.022+0000] {processor.py:157} INFO - Started process (PID=881) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:19:50.032+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:19:50.035+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:19:50.033+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:19:50.062+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:19:50.078+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:19:50.078+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:19:50.099+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:19:50.099+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:19:50.121+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.103 seconds
+[2026-07-03T11:20:20.501+0000] {processor.py:157} INFO - Started process (PID=918) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:20:20.502+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:20:20.503+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:20:20.503+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:20:20.537+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:20:20.559+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:20:20.558+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:20:20.584+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:20:20.584+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:20:20.608+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.116 seconds
+[2026-07-03T11:20:51.034+0000] {processor.py:157} INFO - Started process (PID=955) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:20:51.036+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:20:51.036+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:20:51.036+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:20:51.063+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:20:51.083+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:20:51.083+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:20:51.105+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:20:51.105+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:20:51.126+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.097 seconds
+[2026-07-03T11:21:21.504+0000] {processor.py:157} INFO - Started process (PID=992) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:21:21.504+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:21:21.505+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:21:21.505+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:21:21.531+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:21:21.547+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:21:21.547+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:21:21.568+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:21:21.568+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:21:21.588+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.088 seconds
+[2026-07-03T11:21:51.912+0000] {processor.py:157} INFO - Started process (PID=1029) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:21:51.914+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:21:51.915+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:21:51.914+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:21:51.944+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:21:51.967+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:21:51.967+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:21:51.994+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:21:51.994+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:21:52.018+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.110 seconds
+[2026-07-03T11:22:22.421+0000] {processor.py:157} INFO - Started process (PID=1066) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:22:22.422+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:22:22.423+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:22:22.423+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:22:22.450+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:22:22.468+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:22:22.467+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:22:22.489+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:22:22.489+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:22:22.519+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.101 seconds
+[2026-07-03T11:22:52.908+0000] {processor.py:157} INFO - Started process (PID=1103) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:22:52.920+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:22:52.921+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:22:52.920+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:22:52.944+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:22:52.962+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:22:52.961+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:22:52.982+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:22:52.982+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:22:53.005+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.101 seconds
+[2026-07-03T11:23:23.388+0000] {processor.py:157} INFO - Started process (PID=1140) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:23:23.389+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:23:23.390+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:23:23.390+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:23:23.418+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:23:23.436+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:23:23.436+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:23:23.458+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:23:23.458+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:23:23.488+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.103 seconds
+[2026-07-03T11:23:53.860+0000] {processor.py:157} INFO - Started process (PID=1177) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:23:53.871+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:23:53.872+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:23:53.872+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:23:53.899+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:23:53.918+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:23:53.918+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:23:53.942+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:23:53.941+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:23:53.966+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.110 seconds
+[2026-07-03T11:24:24.343+0000] {processor.py:157} INFO - Started process (PID=1214) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:24:24.344+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:24:24.345+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:24:24.345+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:24:24.369+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:24:24.393+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:24:24.393+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:24:24.414+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:24:24.413+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:24:24.443+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.104 seconds
+[2026-07-03T11:24:54.827+0000] {processor.py:157} INFO - Started process (PID=1251) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:24:54.829+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:24:54.830+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:24:54.830+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:24:54.859+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:24:54.880+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:24:54.879+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:24:54.902+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:24:54.902+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:24:54.932+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.108 seconds
+[2026-07-03T11:25:25.318+0000] {processor.py:157} INFO - Started process (PID=1288) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:25:25.319+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:25:25.320+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:25:25.320+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:25:25.349+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:25:25.365+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:25:25.364+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:25:25.386+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:25:25.386+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:25:25.406+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.092 seconds
+[2026-07-03T11:25:55.782+0000] {processor.py:157} INFO - Started process (PID=1325) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:25:55.793+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:25:55.794+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:25:55.794+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:25:55.820+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:25:55.845+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:25:55.844+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:25:55.886+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:25:55.886+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:25:55.917+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.140 seconds
+[2026-07-03T11:26:26.299+0000] {processor.py:157} INFO - Started process (PID=1362) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:26:26.300+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:26:26.302+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:26:26.301+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:26:26.333+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:26:26.357+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:26:26.356+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:26:26.383+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:26:26.383+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:26:26.407+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.113 seconds
+[2026-07-03T11:26:56.768+0000] {processor.py:157} INFO - Started process (PID=1399) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:26:56.779+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:26:56.780+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:26:56.779+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:26:56.808+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:26:56.832+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:26:56.832+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:26:56.854+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:26:56.853+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:26:56.875+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.111 seconds
+[2026-07-03T11:27:27.248+0000] {processor.py:157} INFO - Started process (PID=1436) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:27:27.249+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:27:27.250+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:27:27.250+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:27:27.275+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:27:27.290+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:27:27.290+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:27:27.317+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:27:27.317+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:27:27.343+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.098 seconds
+[2026-07-03T11:27:57.743+0000] {processor.py:157} INFO - Started process (PID=1473) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:27:57.745+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:27:57.746+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:27:57.746+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:27:57.777+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:27:57.798+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:27:57.798+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:27:57.820+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:27:57.819+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:27:57.849+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.111 seconds
+[2026-07-03T11:28:28.312+0000] {processor.py:157} INFO - Started process (PID=1503) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:28:28.313+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:28:28.313+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:28:28.313+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:28:28.340+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:28:28.358+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:28:28.358+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:28:28.379+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:28:28.379+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:28:28.401+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.094 seconds
+[2026-07-03T11:28:58.778+0000] {processor.py:157} INFO - Started process (PID=1540) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:28:58.789+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:28:58.790+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:28:58.790+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:28:58.825+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:28:58.856+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:28:58.855+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:28:58.898+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:28:58.898+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:28:58.932+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.158 seconds
+[2026-07-03T11:29:29.389+0000] {processor.py:157} INFO - Started process (PID=1577) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:29:29.400+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:29:29.401+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:29:29.400+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:29:29.425+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:29:29.448+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:29:29.448+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:29:29.470+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:29:29.469+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:29:29.493+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.109 seconds
+[2026-07-03T11:29:59.859+0000] {processor.py:157} INFO - Started process (PID=1614) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:29:59.860+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:29:59.861+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:29:59.860+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:29:59.894+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:29:59.919+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:29:59.919+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:29:59.947+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:29:59.947+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:29:59.977+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.122 seconds
+[2026-07-03T11:30:30.422+0000] {processor.py:157} INFO - Started process (PID=1651) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:30:30.426+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:30:30.427+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:30:30.427+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:30:30.461+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:30:30.490+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:30:30.490+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:30:30.537+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:30:30.537+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:30:30.601+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.184 seconds
+[2026-07-03T11:31:01.442+0000] {processor.py:157} INFO - Started process (PID=1689) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:31:01.443+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:31:01.443+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:31:01.443+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:31:01.469+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:31:01.485+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:31:01.485+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:31:01.506+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:31:01.506+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:31:01.538+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.100 seconds
+[2026-07-03T11:36:53.435+0000] {processor.py:157} INFO - Started process (PID=1729) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:36:53.447+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:36:53.449+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:36:53.448+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:36:53.602+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:36:53.692+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:36:53.692+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:36:53.773+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:36:53.772+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:36:53.821+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.402 seconds
+[2026-07-03T11:37:24.077+0000] {processor.py:157} INFO - Started process (PID=1768) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:37:24.078+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:37:24.079+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:37:24.078+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:37:24.104+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:37:24.123+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:37:24.123+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:37:24.144+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:37:24.144+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:37:24.166+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.092 seconds
+[2026-07-03T11:37:54.486+0000] {processor.py:157} INFO - Started process (PID=1805) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:37:54.487+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:37:54.488+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:37:54.488+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:37:54.513+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:37:54.532+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:37:54.532+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:37:54.552+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:37:54.552+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:37:54.572+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.089 seconds
+[2026-07-03T11:38:24.996+0000] {processor.py:157} INFO - Started process (PID=1842) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:38:24.997+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:38:24.997+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:38:24.997+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:38:25.022+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:38:25.039+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:38:25.038+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:38:25.058+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:38:25.057+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:38:25.078+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.085 seconds
+[2026-07-03T11:38:55.486+0000] {processor.py:157} INFO - Started process (PID=1879) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:38:55.487+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:38:55.488+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:38:55.487+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:38:55.516+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:38:55.542+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:38:55.541+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:38:55.566+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:38:55.565+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:38:55.587+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.105 seconds
+[2026-07-03T11:39:25.991+0000] {processor.py:157} INFO - Started process (PID=1916) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:39:25.992+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:39:25.992+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:39:25.992+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:39:26.017+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:39:26.032+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:39:26.032+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:39:26.054+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:39:26.054+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:39:26.074+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.088 seconds
+[2026-07-03T11:39:56.484+0000] {processor.py:157} INFO - Started process (PID=1953) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:39:56.486+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:39:56.487+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:39:56.487+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:39:56.515+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:39:56.532+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:39:56.532+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:39:56.552+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:39:56.552+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:39:56.571+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.091 seconds
+[2026-07-03T11:40:26.979+0000] {processor.py:157} INFO - Started process (PID=1990) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:40:26.980+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:40:26.981+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:40:26.980+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:40:27.006+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:40:27.023+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:40:27.022+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:40:27.041+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:40:27.041+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:40:27.059+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.083 seconds
+[2026-07-03T11:40:57.384+0000] {processor.py:157} INFO - Started process (PID=2027) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:40:57.386+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:40:57.387+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:40:57.386+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:40:57.419+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:40:57.440+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:40:57.439+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:40:57.464+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:40:57.464+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:40:57.486+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.105 seconds
+[2026-07-03T11:41:27.901+0000] {processor.py:157} INFO - Started process (PID=2063) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:41:27.902+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:41:27.903+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:41:27.903+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:41:27.929+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:41:27.946+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:41:27.946+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:41:27.967+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:41:27.966+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:41:27.997+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.099 seconds
+[2026-07-03T11:41:58.308+0000] {processor.py:157} INFO - Started process (PID=2094) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:41:58.310+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:41:58.312+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:41:58.311+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:41:58.345+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:41:58.364+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:41:58.364+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:41:58.388+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:41:58.388+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:41:58.409+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.105 seconds
+[2026-07-03T11:42:28.735+0000] {processor.py:157} INFO - Started process (PID=2131) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:42:28.735+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:42:28.736+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:42:28.736+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:42:28.763+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:42:28.785+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:42:28.785+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:42:28.812+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:42:28.812+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:42:28.839+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.107 seconds
+[2026-07-03T11:54:29.250+0000] {processor.py:157} INFO - Started process (PID=2167) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:54:29.269+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:54:29.284+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:54:29.283+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:54:29.465+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:54:29.577+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:54:29.577+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:54:29.702+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:54:29.702+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:54:29.762+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.530 seconds
+[2026-07-03T11:55:41.544+0000] {processor.py:157} INFO - Started process (PID=2200) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:55:41.545+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:55:41.546+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:55:41.546+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:55:41.580+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:55:41.601+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:55:41.600+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:55:41.622+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:55:41.622+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:55:41.646+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.105 seconds
+[2026-07-03T11:56:12.138+0000] {processor.py:157} INFO - Started process (PID=2239) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:56:12.139+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:56:12.140+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:56:12.139+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:56:12.167+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:56:12.189+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:56:12.188+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:56:12.221+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:56:12.220+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:56:12.246+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.110 seconds
+[2026-07-03T11:56:42.734+0000] {processor.py:157} INFO - Started process (PID=2276) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:56:42.736+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:56:42.736+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:56:42.736+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:56:42.759+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:56:42.777+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:56:42.776+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:56:42.796+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:56:42.795+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:56:42.818+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.086 seconds
+[2026-07-03T11:57:13.296+0000] {processor.py:157} INFO - Started process (PID=2313) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:57:13.298+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:57:13.299+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:57:13.299+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:57:13.334+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:57:13.358+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:57:13.357+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:57:13.391+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:57:13.391+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:57:13.417+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.125 seconds
+[2026-07-03T11:57:43.926+0000] {processor.py:157} INFO - Started process (PID=2350) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:57:43.927+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:57:43.929+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:57:43.928+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:57:43.962+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:57:43.986+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:57:43.986+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:57:44.010+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:57:44.010+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:57:44.032+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.109 seconds
+[2026-07-03T11:58:14.472+0000] {processor.py:157} INFO - Started process (PID=2387) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:58:14.473+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:58:14.474+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:58:14.474+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:58:14.502+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:58:14.531+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:58:14.531+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:58:14.566+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:58:14.565+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:58:14.588+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.119 seconds
+[2026-07-03T11:58:45.211+0000] {processor.py:157} INFO - Started process (PID=2424) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:58:45.219+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:58:45.237+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:58:45.236+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:58:45.338+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:58:45.384+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:58:45.383+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:58:45.464+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:58:45.463+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:58:45.532+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.336 seconds
+[2026-07-03T11:59:15.831+0000] {processor.py:157} INFO - Started process (PID=2461) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:59:15.832+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:59:15.833+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:59:15.833+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:59:15.860+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:59:15.876+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:59:15.876+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:59:15.896+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:59:15.896+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:59:15.915+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.089 seconds
+[2026-07-03T11:59:46.402+0000] {processor.py:157} INFO - Started process (PID=2498) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T11:59:46.404+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T11:59:46.405+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:59:46.404+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:59:46.455+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T11:59:46.497+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:59:46.497+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T11:59:46.543+0000] {logging_mixin.py:154} INFO - [2026-07-03T11:59:46.543+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T11:59:46.588+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.193 seconds
+[2026-07-03T12:00:17.234+0000] {processor.py:157} INFO - Started process (PID=2528) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T12:00:17.235+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T12:00:17.237+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:00:17.236+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:00:17.280+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:00:17.306+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:00:17.306+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:00:17.332+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:00:17.332+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:00:17.357+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.130 seconds
+[2026-07-03T12:00:47.796+0000] {processor.py:157} INFO - Started process (PID=2565) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T12:00:47.800+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T12:00:47.801+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:00:47.801+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:00:47.831+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:00:47.850+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:00:47.850+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:00:47.873+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:00:47.873+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:00:47.895+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.103 seconds
+[2026-07-03T12:01:18.307+0000] {processor.py:157} INFO - Started process (PID=2602) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T12:01:18.308+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T12:01:18.310+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:01:18.309+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:01:18.369+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:01:18.416+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:01:18.416+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:01:18.469+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:01:18.469+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:01:18.512+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.212 seconds
+[2026-07-03T12:01:49.062+0000] {processor.py:157} INFO - Started process (PID=2639) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T12:01:49.066+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T12:01:49.067+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:01:49.067+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:01:49.106+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:01:49.139+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:01:49.138+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:01:49.174+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:01:49.173+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:01:49.201+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.142 seconds
+[2026-07-03T12:02:19.916+0000] {processor.py:157} INFO - Started process (PID=2676) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T12:02:19.917+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T12:02:19.918+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:02:19.918+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:02:19.949+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:02:19.971+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:02:19.971+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:02:20.000+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:02:19.999+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:02:20.024+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.110 seconds
+[2026-07-03T12:02:50.314+0000] {processor.py:157} INFO - Started process (PID=2713) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T12:02:50.320+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T12:02:50.321+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:02:50.320+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:02:50.349+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:02:50.367+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:02:50.367+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:02:50.390+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:02:50.389+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:02:50.411+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.099 seconds
+[2026-07-03T12:03:20.851+0000] {processor.py:157} INFO - Started process (PID=2750) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T12:03:20.852+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T12:03:20.853+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:03:20.853+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:03:20.889+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:03:20.922+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:03:20.922+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:03:20.961+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:03:20.960+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:03:20.991+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.144 seconds
+[2026-07-03T12:03:51.377+0000] {processor.py:157} INFO - Started process (PID=2787) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T12:03:51.378+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T12:03:51.379+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:03:51.379+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:03:51.410+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:03:51.433+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:03:51.432+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:03:51.458+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:03:51.458+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:03:51.479+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.106 seconds
+[2026-07-03T12:04:21.832+0000] {processor.py:157} INFO - Started process (PID=2824) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T12:04:21.833+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T12:04:21.834+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:04:21.834+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:04:21.857+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:04:21.873+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:04:21.873+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:04:21.896+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:04:21.895+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:04:21.917+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.088 seconds
+[2026-07-03T12:04:52.340+0000] {processor.py:157} INFO - Started process (PID=2861) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T12:04:52.341+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T12:04:52.343+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:04:52.342+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:04:52.379+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:04:52.407+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:04:52.407+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:04:52.447+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:04:52.446+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:04:52.484+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.148 seconds
+[2026-07-03T12:05:22.980+0000] {processor.py:157} INFO - Started process (PID=2898) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T12:05:22.980+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T12:05:22.981+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:05:22.981+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:05:23.008+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:05:23.028+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:05:23.027+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:05:23.051+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:05:23.051+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:05:23.076+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.100 seconds
+[2026-07-03T12:05:53.591+0000] {processor.py:157} INFO - Started process (PID=2935) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T12:05:53.595+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T12:05:53.596+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:05:53.596+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:05:53.621+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:05:53.640+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:05:53.640+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:05:53.659+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:05:53.659+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:05:53.680+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.092 seconds
+[2026-07-03T12:06:24.096+0000] {processor.py:157} INFO - Started process (PID=2972) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T12:06:24.098+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T12:06:24.099+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:06:24.098+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:06:24.134+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:06:24.153+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:06:24.153+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:06:24.180+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:06:24.180+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:06:24.202+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.109 seconds
+[2026-07-03T12:06:54.590+0000] {processor.py:157} INFO - Started process (PID=3002) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T12:06:54.593+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T12:06:54.595+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:06:54.594+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:06:54.663+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:06:54.702+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:06:54.701+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:06:54.748+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:06:54.748+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:06:54.784+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.200 seconds
+[2026-07-03T12:07:25.520+0000] {processor.py:157} INFO - Started process (PID=3039) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T12:07:25.522+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T12:07:25.523+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:07:25.523+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:07:25.566+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:07:25.605+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:07:25.604+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:07:25.640+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:07:25.640+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:07:25.670+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.155 seconds
+[2026-07-03T12:07:56.350+0000] {processor.py:157} INFO - Started process (PID=3077) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T12:07:56.356+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T12:07:56.357+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:07:56.357+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:07:56.385+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:07:56.400+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:07:56.399+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:07:56.417+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:07:56.417+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:07:56.438+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.092 seconds
+[2026-07-03T12:08:26.662+0000] {processor.py:157} INFO - Started process (PID=3114) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T12:08:26.662+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T12:08:26.663+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:08:26.663+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:08:26.687+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:08:26.703+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:08:26.702+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:08:26.723+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:08:26.723+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:08:26.741+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.082 seconds
+[2026-07-03T12:08:57.153+0000] {processor.py:157} INFO - Started process (PID=3151) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T12:08:57.157+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T12:08:57.158+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:08:57.158+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:08:57.196+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:08:57.224+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:08:57.223+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:08:57.263+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:08:57.263+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:08:57.291+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.141 seconds
+[2026-07-03T12:09:27.674+0000] {processor.py:157} INFO - Started process (PID=3188) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T12:09:27.675+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T12:09:27.676+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:09:27.675+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:09:27.701+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:09:27.717+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:09:27.717+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:09:27.739+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:09:27.739+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:09:27.759+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.090 seconds
+[2026-07-03T12:09:58.169+0000] {processor.py:157} INFO - Started process (PID=3225) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T12:09:58.174+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T12:09:58.175+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:09:58.175+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:09:58.208+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:09:58.228+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:09:58.228+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:09:58.250+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:09:58.250+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:09:58.272+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.106 seconds
+[2026-07-03T12:10:28.594+0000] {processor.py:157} INFO - Started process (PID=3262) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T12:10:28.595+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T12:10:28.596+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:10:28.596+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:10:28.629+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:10:28.646+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:10:28.646+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:10:28.665+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:10:28.665+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:10:28.686+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.098 seconds
+[2026-07-03T12:10:59.070+0000] {processor.py:157} INFO - Started process (PID=3300) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T12:10:59.075+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T12:10:59.076+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:10:59.075+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:10:59.102+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:10:59.120+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:10:59.120+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:10:59.142+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:10:59.142+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:10:59.165+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.098 seconds
+[2026-07-03T12:11:29.513+0000] {processor.py:157} INFO - Started process (PID=3337) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T12:11:29.513+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T12:11:29.514+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:11:29.514+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:11:29.538+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:11:29.555+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:11:29.555+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:11:29.578+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:11:29.578+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:11:29.597+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.087 seconds
+[2026-07-03T12:12:00.022+0000] {processor.py:157} INFO - Started process (PID=3374) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T12:12:00.025+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T12:12:00.027+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:12:00.026+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:12:00.056+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:12:00.073+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:12:00.073+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:12:00.097+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:12:00.097+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:12:00.119+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.100 seconds
+[2026-07-03T12:12:30.338+0000] {processor.py:157} INFO - Started process (PID=3411) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T12:12:30.339+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T12:12:30.339+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:12:30.339+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:12:30.366+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:12:30.387+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:12:30.387+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:12:30.409+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:12:30.408+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:12:30.429+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.096 seconds
+[2026-07-03T12:13:00.845+0000] {processor.py:157} INFO - Started process (PID=3448) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T12:13:00.849+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T12:13:00.850+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:13:00.849+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:13:00.883+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:13:00.904+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:13:00.904+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:13:00.927+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:13:00.927+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:13:00.950+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.109 seconds
+[2026-07-03T12:13:31.402+0000] {processor.py:157} INFO - Started process (PID=3485) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T12:13:31.403+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T12:13:31.403+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:13:31.403+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:13:31.431+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:13:31.454+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:13:31.454+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:13:31.489+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:13:31.489+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:13:31.515+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.119 seconds
+[2026-07-03T12:14:01.915+0000] {processor.py:157} INFO - Started process (PID=3522) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T12:14:01.919+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T12:14:01.921+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:14:01.920+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:14:01.948+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:14:01.967+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:14:01.967+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:14:01.992+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:14:01.991+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:14:02.016+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.104 seconds
+[2026-07-03T12:14:32.343+0000] {processor.py:157} INFO - Started process (PID=3559) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T12:14:32.344+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T12:14:32.344+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:14:32.344+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:14:32.372+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:14:32.392+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:14:32.392+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:14:32.413+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:14:32.413+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:14:32.435+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.095 seconds
+[2026-07-03T12:15:02.844+0000] {processor.py:157} INFO - Started process (PID=3596) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T12:15:02.849+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T12:15:02.849+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:15:02.849+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:15:02.874+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:15:02.890+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:15:02.889+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:15:02.914+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:15:02.914+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:15:02.947+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.107 seconds
+[2026-07-03T12:15:33.263+0000] {processor.py:157} INFO - Started process (PID=3633) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T12:15:33.265+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T12:15:33.267+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:15:33.266+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:15:33.312+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:15:33.346+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:15:33.346+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:15:33.386+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:15:33.385+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:15:33.423+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.167 seconds
+[2026-07-03T12:16:03.902+0000] {processor.py:157} INFO - Started process (PID=3669) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T12:16:03.903+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T12:16:03.904+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:16:03.904+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:16:03.947+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:16:03.976+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:16:03.975+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:16:04.012+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:16:04.012+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:16:04.047+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.150 seconds
+[2026-07-03T12:16:34.290+0000] {processor.py:157} INFO - Started process (PID=3700) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T12:16:34.291+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T12:16:34.293+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:16:34.292+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:16:34.335+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:16:34.368+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:16:34.368+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:16:34.403+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:16:34.403+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:16:34.430+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.147 seconds
+[2026-07-03T12:17:05.147+0000] {processor.py:157} INFO - Started process (PID=3737) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T12:17:05.149+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T12:17:05.150+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:17:05.150+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:17:05.199+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:17:05.220+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:17:05.220+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:17:05.245+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:17:05.245+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:17:05.274+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.137 seconds
+[2026-07-03T12:17:35.634+0000] {processor.py:157} INFO - Started process (PID=3774) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T12:17:35.634+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T12:17:35.635+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:17:35.635+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:17:35.670+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:17:35.692+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:17:35.692+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:17:35.717+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:17:35.716+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:17:35.736+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.106 seconds
+[2026-07-03T12:18:06.163+0000] {processor.py:157} INFO - Started process (PID=3811) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T12:18:06.166+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T12:18:06.167+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:18:06.167+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:18:06.195+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:18:06.216+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:18:06.215+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:18:06.237+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:18:06.236+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:18:06.259+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.098 seconds
+[2026-07-03T12:18:36.711+0000] {processor.py:157} INFO - Started process (PID=3848) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T12:18:36.712+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T12:18:36.713+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:18:36.713+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:18:36.742+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:18:36.761+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:18:36.760+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:18:36.781+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:18:36.781+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:18:36.801+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.094 seconds
+[2026-07-03T12:19:07.249+0000] {processor.py:157} INFO - Started process (PID=3885) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T12:19:07.253+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T12:19:07.254+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:19:07.254+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:19:07.277+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:19:07.298+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:19:07.298+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:19:07.324+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:19:07.324+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:19:07.357+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.111 seconds
+[2026-07-03T12:19:37.748+0000] {processor.py:157} INFO - Started process (PID=3927) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T12:19:37.752+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T12:19:37.753+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:19:37.753+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:19:37.788+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:19:37.811+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:19:37.811+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:19:37.837+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:19:37.837+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:19:37.859+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.114 seconds
+[2026-07-03T12:20:08.134+0000] {processor.py:157} INFO - Started process (PID=3969) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T12:20:08.135+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T12:20:08.136+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:20:08.136+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:20:08.160+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:20:08.176+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:20:08.176+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:20:08.194+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:20:08.194+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:20:08.213+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.084 seconds
+[2026-07-03T12:20:38.605+0000] {processor.py:157} INFO - Started process (PID=4011) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T12:20:38.607+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T12:20:38.608+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:20:38.608+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:20:38.632+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:20:38.647+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:20:38.647+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:20:38.667+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:20:38.667+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:20:38.689+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.088 seconds
+[2026-07-03T12:21:09.226+0000] {processor.py:157} INFO - Started process (PID=4053) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T12:21:09.227+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T12:21:09.228+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:21:09.227+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:21:09.252+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:21:09.268+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:21:09.268+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:21:09.294+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:21:09.293+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:21:09.316+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.093 seconds
+[2026-07-03T12:21:39.705+0000] {processor.py:157} INFO - Started process (PID=4090) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T12:21:39.708+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T12:21:39.713+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:21:39.710+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:21:39.803+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:21:39.900+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:21:39.900+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:21:39.992+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:21:39.990+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:21:40.065+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.367 seconds
+[2026-07-03T12:22:10.463+0000] {processor.py:157} INFO - Started process (PID=4127) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T12:22:10.464+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T12:22:10.465+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:22:10.465+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:22:10.492+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:22:10.511+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:22:10.511+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:22:10.535+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:22:10.534+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:22:10.576+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.116 seconds
+[2026-07-03T12:22:41.299+0000] {processor.py:157} INFO - Started process (PID=4164) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T12:22:41.301+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T12:22:41.323+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:22:41.320+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:22:41.502+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:22:41.638+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:22:41.629+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:22:41.787+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:22:41.786+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:22:41.955+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.761 seconds
+[2026-07-03T12:23:48.557+0000] {processor.py:157} INFO - Started process (PID=4196) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T12:23:48.573+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T12:23:48.574+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:23:48.574+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:23:48.703+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T12:23:48.847+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:23:48.846+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T12:23:48.995+0000] {logging_mixin.py:154} INFO - [2026-07-03T12:23:48.995+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T12:23:49.108+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.591 seconds
+[2026-07-03T15:42:01.843+0000] {processor.py:157} INFO - Started process (PID=4239) to work on /opt/airflow/dags/varconnections.py
+[2026-07-03T15:42:01.846+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/varconnections.py for tasks to queue
+[2026-07-03T15:42:01.850+0000] {logging_mixin.py:154} INFO - [2026-07-03T15:42:01.849+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/varconnections.py
+[2026-07-03T15:42:01.930+0000] {processor.py:839} INFO - DAG(s) dict_keys(['conecctions']) retrieved from /opt/airflow/dags/varconnections.py
+[2026-07-03T15:42:02.007+0000] {logging_mixin.py:154} INFO - [2026-07-03T15:42:02.006+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-03T15:42:02.068+0000] {logging_mixin.py:154} INFO - [2026-07-03T15:42:02.068+0000] {dag.py:3722} INFO - Setting next_dagrun for conecctions to 2026-07-03T00:00:00+00:00, run_after=2026-07-04T00:00:00+00:00
+[2026-07-03T15:42:02.102+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/varconnections.py took 0.267 seconds

@@ -1,0 +1,16 @@
+[2026-07-06T06:24:20.943+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: conecctions.leer_conexion scheduled__2026-07-05T06:23:59.174796+00:00 [queued]>
+[2026-07-06T06:24:21.054+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: conecctions.leer_conexion scheduled__2026-07-05T06:23:59.174796+00:00 [queued]>
+[2026-07-06T06:24:21.055+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2026-07-06T06:24:21.311+0000] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): leer_conexion> on 2026-07-05 06:23:59.174796+00:00
+[2026-07-06T06:24:21.423+0000] {standard_task_runner.py:57} INFO - Started process 4335 to run task
+[2026-07-06T06:24:21.505+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'conecctions', 'leer_conexion', 'scheduled__2026-07-05T06:23:59.174796+00:00', '--job-id', '1992', '--raw', '--subdir', 'DAGS_FOLDER/varconnections.py', '--cfg-path', '/tmp/tmpw_dohrbf']
+[2026-07-06T06:24:21.545+0000] {standard_task_runner.py:85} INFO - Job 1992: Subtask leer_conexion
+[2026-07-06T06:24:22.448+0000] {task_command.py:416} INFO - Running <TaskInstance: conecctions.leer_conexion scheduled__2026-07-05T06:23:59.174796+00:00 [running]> on host 05cbd3a46764
+[2026-07-06T06:24:24.296+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='conecctions' AIRFLOW_CTX_TASK_ID='leer_conexion' AIRFLOW_CTX_EXECUTION_DATE='2026-07-05T06:23:59.174796+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-07-05T06:23:59.174796+00:00'
+[2026-07-06T06:24:24.439+0000] {base.py:73} INFO - Using connection ID 'connection_var' for task execution.
+[2026-07-06T06:24:24.440+0000] {logging_mixin.py:154} INFO - Tipo: fs
+[2026-07-06T06:24:24.441+0000] {logging_mixin.py:154} INFO - Usuario: ***
+[2026-07-06T06:24:24.455+0000] {python.py:194} INFO - Done. Returned value was: None
+[2026-07-06T06:24:24.680+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=conecctions, task_id=leer_conexion, execution_date=20260705T062359, start_date=20260706T062420, end_date=20260706T062424
+[2026-07-06T06:24:25.020+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2026-07-06T06:24:25.181+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
