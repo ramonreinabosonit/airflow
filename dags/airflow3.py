@@ -15,12 +15,16 @@ with DAG(
     t1 = BashOperator(
         task_id="tarea1",
         # bash_command="java -jar /home/ramonreina/airflow/dags/scripts/Pruebaa.jar"
-        bash_command="java -jar /mnt/c/users/ramon.reina/desktop/Pruebaa.jar"
+        # bash_command="java -jar /mnt/c/users/ramon.reina/desktop/Pruebaa.jar"
+        bash_command="java -jar /opt/airflow/dags/scripts/Pruebaa.jar"
     )
     
+    # Es importante tener exactamente la ruta del fichero .jar
     t2 = BashOperator(
         task_id="tarea2",
-        bash_command="java -jar /home/ramonreina/airflow/dags/scripts/Prueba2.jar"
+        # bash_command="java -jar /home/ramonreina/airflow/dags/scripts/Prueba2.jar"
+        bash_command="java -jar /opt/airflow/dags/scripts/Pruebaa.jar"
+
     )
 
     t1 >> t2
